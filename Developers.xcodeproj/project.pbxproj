@@ -14,6 +14,7 @@
 		D67094052B6AE5280069146F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67094042B6AE5280069146F /* Launch Screen.storyboard */; };
 		D67094072B6AE6930069146F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67094062B6AE6930069146F /* CardView.swift */; };
 		D67094092B6AF3090069146F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67094082B6AF3090069146F /* CardModel.swift */; };
+		D670940B2B6AF4620069146F /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D670940A2B6AF4620069146F /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D67094042B6AE5280069146F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D67094062B6AE6930069146F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D67094082B6AF3090069146F /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		D670940A2B6AF4620069146F /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D67094042B6AE5280069146F /* Launch Screen.storyboard */,
 				D67094062B6AE6930069146F /* CardView.swift */,
 				D67094082B6AF3090069146F /* CardModel.swift */,
+				D670940A2B6AF4620069146F /* CardData.swift */,
 			);
 			path = Developers;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D670940B2B6AF4620069146F /* CardData.swift in Sources */,
 				D67093F92B6AE0180069146F /* ContentView.swift in Sources */,
 				D67094092B6AF3090069146F /* CardModel.swift in Sources */,
 				D67094072B6AE6930069146F /* CardView.swift in Sources */,
