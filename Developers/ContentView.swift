@@ -12,7 +12,16 @@ struct ContentView: View {
     // MARK: CONTENT
     
     var body: some View {
-        CardView()
+        
+        // Yatay ScrollView
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
+                ForEach(0 ..< 6) { item in
+                    CardView()
+                }
+            }
+            .padding(20)
+        }
     }
 }
 
