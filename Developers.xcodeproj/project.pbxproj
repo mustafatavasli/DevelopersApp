@@ -12,6 +12,7 @@
 		D67093FB2B6AE0190069146F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67093FA2B6AE0190069146F /* Assets.xcassets */; };
 		D67093FE2B6AE0190069146F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D67093FD2B6AE0190069146F /* Preview Assets.xcassets */; };
 		D67094052B6AE5280069146F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D67094042B6AE5280069146F /* Launch Screen.storyboard */; };
+		D67094072B6AE6930069146F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67094062B6AE6930069146F /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D67093FA2B6AE0190069146F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D67093FD2B6AE0190069146F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D67094042B6AE5280069146F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D67094062B6AE6930069146F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				D67093FA2B6AE0190069146F /* Assets.xcassets */,
 				D67093FC2B6AE0190069146F /* Preview Content */,
 				D67094042B6AE5280069146F /* Launch Screen.storyboard */,
+				D67094062B6AE6930069146F /* CardView.swift */,
 			);
 			path = Developers;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D67093F92B6AE0180069146F /* ContentView.swift in Sources */,
+				D67094072B6AE6930069146F /* CardView.swift in Sources */,
 				D67093F72B6AE0180069146F /* DevelopersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
